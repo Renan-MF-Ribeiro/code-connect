@@ -2,14 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: linear-gradient(
+      90deg,
+      rgba(14, 17, 18, 1) 0%,
+      rgba(0, 9, 14, 1) 100%
+    );
     --foreground: #ededed;
   }
 }
