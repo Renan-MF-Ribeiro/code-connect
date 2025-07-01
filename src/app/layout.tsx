@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Aside } from '@/app/components/Aside'
+import { Aside } from '@components/Aside'
 
 export const metadata: Metadata = {
   title: 'Code Connect',
