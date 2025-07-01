@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "DEV",
+      "label": "run project",
       "type": "npm",
       "script": "dev",
       "isBackground": true,
